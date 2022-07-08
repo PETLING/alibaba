@@ -1,0 +1,139 @@
+/* html {
+	padding: 0px;
+	margin: 0px;
+} */
+
+body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.ab {
+	height: 30px;
+}
+
+#c {
+	position: absolute;
+	left: 200px;
+	top: 15px;
+	cursor: default;
+}
+
+/* #c :hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+ */
+
+.a {
+	position: absolute;
+	left: 500px;
+	top: 29px;
+	opacity: 0.8;
+}
+
+#a {
+	width: 100%;
+	height: 30px;
+	background: white;
+}
+
+.d {
+	position: absolute;
+	left: 700px;
+	top: 29px;
+}
+
+#d {
+	background-color: #ffffff;
+	height: 20px;
+	width: 165px;
+	color: #badc58;
+}
+
+#b {
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(500deg, #91ff89 60%, #706fd3);
+}
+
+select {
+	border-radius: 12px;
+	display: inline-block;
+	width: 150px;
+	height: 48px;
+	font-size: 15px;
+	color: #ff793f;
+	padding-left: 10px;
+	background-color: #c7d6ff;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+
+
+.c {
+	height: 500px;
+}
+
+main {
+
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	bottom: -410px;
+	background: linear-gradient(0deg, #fa983a, 50%, #38ada9);
+}
+
+.f {
+	position: absolute;
+	left: 430px;
+	top: 8px;
+}
+
+.g {
+	position: absolute;
+	left: 630px;
+	top: 8px;
+}
+
+#f {
+	position: absolute;
+	left: 830px;
+	top: 8px;
+}
+
+#g {
+	position: absolute;
+	left: 1030px;
+	top: 8px;
+}
+
+
+#e {
+	position: absolute;
+	left: -230px;
+	top: 40px;
+	cursor: pointer;
+}
+
+ul {
+	display: inline-block;
+}
+
+ul li {
+	font-size: 14px;
+	font-style: oblique;
+	color: white;
+	text-shadow: 3px 1px 4px whitesmoke;
+	cursor: pointer;
+}
+
+.e {
+	position: absolute;
+	left: 330px;
+	top: 345px;
+	font-size: 2px;
+}

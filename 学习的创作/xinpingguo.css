@@ -1,0 +1,106 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.father0 {
+	height: 5em;
+	background-color: #c7d6ff;
+	border-bottom: 1.3px solid black;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.a {
+	margin: 20px 230px -10px 100px;
+	cursor: default;
+}
+
+.aa {
+	height: 40px;
+	border: 13px double whitesmoke;
+}
+
+.aa:focus {
+	outline: none;
+}
+
+select {
+	text-align: center;
+	position: relative;
+	left: 330px;
+	bottom: -25px;
+	width: 165px;
+	color: blueviolet;
+	font-style: italic;
+	border-radius: 12px;
+	background-color: #edff74;
+}
+
+
+select:focus {
+	background-color: #aaff7f;
+	color: coral;
+	/* 交互的实现需JS回头添加 */
+}
+
+.father1 {
+	width: 1261px;
+	height: 590px;
+	border-right: 2px solid yellow;
+	background: url(阿里巴巴的图片修改版.png) no-repeat;
+}
+
+p {
+	letter-spacing: 1px;
+	cursor: default;
+	color: #ffb699;
+	border-radius: 10px;
+	background-color: lavenderblush;
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+p:hover {
+	color: black;
+	font-style: oblique;
+}
+
+footer {
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(0deg, #fa983a, 50%, #38ada9);
+}
+
+.b {
+	position: relative;
+	bottom: 130px;
+}
+
+.bb {
+	width: 150px;
+	height: 210px;
+	display: inline-block;
+	margin: 60px 50px 0px 40px;
+}
+
+ol {
+	list-style-type: none;
+	cursor: default;
+}
+
+ol li:hover {
+	color: ghostwhite;
+}
+
+em {
+	position: relative;
+	left: 250px;
+}
+
+b {
+	position: relative;
+	left: 430px;
+	top: 10px;
+}

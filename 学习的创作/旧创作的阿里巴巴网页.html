@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./pingguo.css" />
+		<meta author="彭某人" content="" />
+		<meta name="Description" content="一些杂七杂八的东西" />
+		<meta name="Keywords" content="css,js" />
+		<title>阿里巴巴官网</title>
+	</head>
+	<body>
+		<div class="ab">
+			<img src="logo_header.png" id="c">
+		</div>
+		<div id="a">
+			<input type="search" placeholder="搜寻阿里巴巴集团" autofocus class="a">
+		</div>
+		<div class="d">
+			<select id="d">
+				<option>阿里巴巴集团网站</option>
+				<option>淘宝</option>
+				<option>飞猪</option>
+				<option>饿了吗</option>
+				<option>天猫</option>
+				<option>钉钉</option>
+			</select>
+		</div>
+		<div id="b">
+			<select onclick="aBOX()">
+				<option>关于我们</option><!-- 正在找解决方案 -->
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select onclick="aBOX()">
+				<option>投资者关系</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select onclick="aBOX()">
+				<option>新闻及媒体资源</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select onclick="aBOX()">
+				<option>联系我们</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select onclick="aBOX()">
+				<option>可持续发展</option>
+			</select>
+		</div>
+		<img src="阿里巴巴的图片.png" width="1260px" class="c">
+		<main>
+			<div class="f">
+				<img src="logo_header.png" id="e">
+				<ul type="none">
+					<li>关于我们</li>
+					<li>公司简介</li>
+					<li>业务范畴</li>
+					<li>历史及里程碑</li>
+					<li>领导团队</li>
+					<li>文化和价值观</li>
+					<li>廉正合规</li>
+					<li>常见问题</li>
+				</ul>
+			</div>
+			<div class="g">
+				<ul type="none">
+					<li>投资者关系</li>
+					<li>投资者关系主页</li>
+					<li>投资者新闻及活动</li>
+					<li>投资者日</li>
+					<li>季度业绩</li>
+					<li>美国证交会公告</li>
+					<li>香港联交所公告</li>
+					<li>财务报告</li>
+					<li>公司治理</li>
+					<li>ESG</li>
+				</ul>
+			</div>
+			<hr>
+			<div id="f">
+				<ul type="none">
+					<li>新闻及媒体资源</li>
+					<li>新闻发布</li>
+					<li>阿里足迹新闻网站</li>
+					<li>媒体报导</li>
+					<li>视频</li>
+					<li>媒体资料库</li>
+					<li>社交媒体</li>
+				</ul>
+			</div>
+			<div id="g">
+				<ul type="none">
+					<li>联系我们</li>
+					<li>全球地点</li>
+					<li>投资者联系</li>
+					<li>媒体联系</li>
+					<li>客户联系</li>
+					<li>国际执法机构用户信息咨询指南</li>
+					<li>知识产权保障</li>
+					<li>可持续发展</li>
+				</ul>
+			</div>
+			<div class="e">
+				<p>加入我们 | 免责声明 | 私隱政策 | 版权公告 © 1999-2021 阿里巴巴集团控股有限公司及／或其关联公司及特许人。版权所有。</p><br>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙公网安备33010002000070 浙ICP备09002987号-93</p>
+			</div>
+
+			<script type="text/javascript">
+				// document.getElementsByTagName("select")[1].style.background='ghostwhite';
+
+				function aBOX() {
+					if (document.getElementById("b").style.background == "linear-gradient(500deg, #91ff89 60%, #706fd3)") {
+						document.getElementById("b").style.background = 'linear-gradient(500deg, #c898ff 60%, #c5ffde)';
+					} else {
+						document.getElementById("b").style.background = 'linear-gradient(500deg, #ff793f 60%, #c7d6ff)';
+					}
+				}
+			</script>
+		</main>
+	</body>
+</html>
